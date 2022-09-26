@@ -3,8 +3,9 @@ package exam;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Scanner;
 import java.util.StringTokenizer;
-//최대공약수 최소공배수
+//최대공약수 최소공배수 완
 public class backjoon2609 {
     public static int getGCD(int A, int B) {
         // 먼저 최대공약수 메소드 하나를 생성
@@ -17,6 +18,7 @@ public class backjoon2609 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
         StringBuilder str = new StringBuilder();
+
         //데이터 읽고 스트링빌더 객체 생성
         int A = Integer.parseInt(st.nextToken());
         int B = Integer.parseInt(st.nextToken());
