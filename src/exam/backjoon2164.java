@@ -32,3 +32,5 @@ public class backjoon2164 {
         System.out.println(q.poll());	// 마지막으로 남은 원소 출력
     }
 }       // 우리가 알게된 것--> Queue의 사용, FIFO라는 단어
+        // stack - push, pop
+        // queue - offer, poll
