@@ -3,10 +3,11 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
-//ABCDE
+//ABCDE -> 좀더 준비
 public class backjoon13023 {
     // 이 문제는 DFS를 이용하여 풀어야함
     // 해당 분기로 갈 수 있는 노드들을 다 살펴보고 움직임
+    // https://minhamina.tistory.com/50
     static ArrayList<Integer>[] list;
     // 어레이리스트로 각 노드들이 연결된게 누구인지 담음
     static boolean[] visited;
